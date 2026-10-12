@@ -1,0 +1,21 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш Python и pytest
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Настройки IDE
+.idea/
+.vscode/
+*.swp
+
+# Отчёты (генерируются при запуске)
+reports/
+
+# Временные файлы
+*.log

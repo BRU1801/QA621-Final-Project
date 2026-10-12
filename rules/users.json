@@ -1,0 +1,10 @@
+{
+  "dataset": "users",
+  "fields": {
+    "id":    [{"rule": "required"}, {"rule": "type", "type": "int"}, {"rule": "unique"}],
+    "name":  [{"rule": "required"}, {"rule": "length", "min": 2, "max": 50}],
+    "email": [{"rule": "required"}, {"rule": "email"}, {"rule": "unique"}],
+    "age":   [{"rule": "type", "type": "int"}, {"rule": "range", "min": 18, "max": 120}],
+    "role":  [{"rule": "one_of", "values": ["guest", "tester", "admin"]}]
+  }
+}
