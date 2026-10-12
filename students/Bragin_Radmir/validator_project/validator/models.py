@@ -33,13 +33,11 @@ class ValidationResult:
         return iter(sorted(self.violations))  # Сортировка благодаря order=True в dataclass
 
     def __bool__(self):
-        # True, если нарушений НЕТ (успех), False, если есть нарушения
+        # True, если нарушений НЕТ, False, если есть нарушения
         return len(self.violations) == 0
 
     @property
     def valid_count(self) -> int:
-        # Упрощённый подсчёт: записи без нарушений.
-        # Для точного подсчёта уникальных записей с ошибками можно использовать set(record_no)
         unique_invalid_records = len(set(v.record_no for v in self.violations))
         return self.total_records - unique_invalid_records
 
