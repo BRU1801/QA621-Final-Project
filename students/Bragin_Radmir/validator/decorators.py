@@ -3,7 +3,6 @@ import time
 import logging
 import os
 
-# Настройка логирования — пишем в reports/runs.log
 LOG_DIR = "reports"
 LOG_FILE = os.path.join(LOG_DIR, "runs.log")
 
@@ -15,7 +14,6 @@ def timed(func):
         start = time.perf_counter()
         result = func(*args, **kwargs)
         elapsed = time.perf_counter() - start
-        # Сохраняем время в атрибут результата, если это ValidationResult
         if hasattr(result, 'elapsed_time'):
             result.elapsed_time = round(elapsed, 3)
         return result
