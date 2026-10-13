@@ -1,0 +1,10 @@
+{
+  "dataset": "orders",
+  "fields": {
+    "order_id": [{"rule": "required"}, {"rule": "length", "min": 5, "max": 20}, {"rule": "unique"}],
+    "user_id": [{"rule": "required"}, {"rule": "type", "type": "int"}, {"rule": "range", "min": 1}],
+    "amount": [{"rule": "required"}, {"rule": "type", "type": "float"}, {"rule": "range", "min": 0.01}],
+    "status": [{"rule": "required"}, {"rule": "one_of", "values": ["paid", "pending", "cancelled"]}],
+    "promo": [{"rule": "length", "min": 3, "max": 20}]
+  }
+}
