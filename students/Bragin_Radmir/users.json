@@ -1,0 +1,8 @@
+[
+  {"id": 1, "name": "Анна", "email": "anna@example.com", "age": 25, "role": "tester"},
+  {"id": 2, "name": "Борис", "email": "boris@example", "age": 31, "role": "admin"},
+  {"id": 3, "name": "", "email": "vika@example.com", "age": 17, "role": "tester"},
+  {"id": 2, "name": "Олег", "email": "oleg@example.com", "age": 40, "role": "manager"},
+  {"id": 5, "name": "Ия", "email": "iya@example.com", "age": "abc", "role": "guest"},
+  {"id": 6, "name": "Пётр", "email": "anna@example.com", "age": 29, "role": "tester"}
+]

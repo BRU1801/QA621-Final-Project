@@ -1,0 +1,23 @@
+[
+  {"order_id": "A-100", "user_id": 1, "amount": 1590.0, "status": "paid", "promo": "SUMMER"},
+  {"order_id": "A-101", "user_id": 2, "amount": -10, "status": "paid", "promo": "SALE10"},
+  {"order_id": "A-101", "user_id": null, "amount": 300, "status": "lost", "promo": ""},
+  {"order_id": "A-102", "user_id": 3, "amount": 500, "status": "pending", "promo": "INVALID"},
+  {"order_id": "A-103", "user_id": 4, "amount": 0, "status": "paid", "promo": null},
+  {"order_id": "", "user_id": 5, "amount": 1000, "status": "paid", "promo": "SUMMER"},
+  {"order_id": "A-104", "user_id": 6, "amount": 2500.5, "status": "paid", "promo": "WINTER"},
+  {"order_id": "A-105", "user_id": 7, "amount": 1200.0, "status": "pending", "promo": "SUMMER"},
+  {"order_id": "A-106", "user_id": 8, "amount": 3000.0, "status": "cancelled", "promo": null},
+  {"order_id": "A-107", "user_id": 9, "amount": 450.0, "status": "paid", "promo": "SALE10"},
+  {"order_id": "A-108", "user_id": 10, "amount": 7800.0, "status": "paid", "promo": "WINTER"},
+  {"order_id": "A-109", "user_id": 11, "amount": 150.0, "status": "pending", "promo": null},
+  {"order_id": "A-110", "user_id": 12, "amount": 990.0, "status": "paid", "promo": "SUMMER"},
+  {"order_id": "A-111", "user_id": 13, "amount": 2100.0, "status": "cancelled", "promo": "SALE10"},
+  {"order_id": "A-112", "user_id": 14, "amount": 600.0, "status": "paid", "promo": null},
+  {"order_id": "A-113", "user_id": 15, "amount": 1300.0, "status": "pending", "promo": "WINTER"},
+  {"order_id": "A-114", "user_id": 16, "amount": 4500.0, "status": "paid", "promo": "SUMMER"},
+  {"order_id": "A-115", "user_id": 17, "amount": 890.0, "status": "paid", "promo": null},
+  {"order_id": "A-116", "user_id": 18, "amount": 2200.0, "status": "cancelled", "promo": "SALE10"},
+  {"order_id": "A-117", "user_id": 19, "amount": 1100.0, "status": "paid", "promo": "WINTER"},
+  {"order_id": "A-118", "user_id": 20, "amount": 3300.0, "status": "pending", "promo": null}
+]

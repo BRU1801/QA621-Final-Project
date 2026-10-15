@@ -11,7 +11,6 @@ from validator.reporters import get_reporter
 from validator.models import Violation, ValidationResult
 from validator.exceptions import ValidatorError, DataFileError, ConfigError, ReportError
 
-# Указываем, что доступно при импорте "from validator import *"
 __all__ = [
     'RULES_REGISTRY',
     'get_loader',
